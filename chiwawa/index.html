@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="./styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="chihuahua_derp_dog.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="neutral" poster="poster.webp" shadow-intensity="1" auto-rotate>
+      <button class="Hotspot" slot="hotspot-1" data-position="-0.00045670135064047705m 0.24525644813464664m -0.33157248170594694m" data-normal="-0.09074209450702508m -0.4679712922393147m -0.8790726602075304m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">chiwawa's anus
+          </div>
+      </button><button class="Hotspot" slot="hotspot-2" data-position="-0.0017475540536729828m 0.3237830179643869m 0.3140009441996919m" data-normal="0.15369347804155842m -0.3435977267820941m 0.9264550269482412m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">chiwawa's big nose
+          </div>
+      </button><button class="Hotspot" slot="hotspot-3" data-position="-0.0030679039809244795m 0.43546225448975606m 0.22815639733337623m" data-normal="-0.08598722218259185m 0.920404392240168m 0.3813947461178886m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">chiwawa</div>
+      </button><button class="Hotspot" slot="hotspot-4" data-position="0.03504937871690129m 0.1553399954768302m -0.013060280922153306m" data-normal="0.3697269584482336m -0.9109804346380976m -0.1828021441427884m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">chiwawa's nipple
+          </div>
+      </button><button class="Hotspot" slot="hotspot-5" data-position="-0.08238088538092055m 0.3926210325980551m 0.12906253924056438m" data-normal="0.035771479532234536m 0.9695841301981083m 0.24213016276385882m" data-visibility-attribute="visible">
+          <div class="HotspotAnnotation">chiwawa's ear
+          </div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/{{MODELVIEWER_VERSION}}/model-viewer.min.js"></script>
+  </body>
+</html>
